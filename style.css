@@ -8,6 +8,16 @@
     color: pink;
 }
 
-#container {
-    display: flex;
+@media (min-width: 600px) {
+    #container {
+        display: flex;
+    }
+    
+    #entree {
+        width: 70%
+    }
+    
+    #sidebar {
+        width: 30%
+    }
 }
