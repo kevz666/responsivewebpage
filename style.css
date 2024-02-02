@@ -37,3 +37,26 @@ h2 {
     font-style: Bold;
     font-family: Millenia;
 }
+
+body {
+    text-align: center; /* Centers the content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh; /* Use the full height of the viewport */
+}
+
+#orderButton {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 15px; /* Rounded corners */
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px; /* Space above the button */
+}
+
+#orderButton:hover {
+    background-color: #45a049; /* Darker shade of green on hover */
+}
